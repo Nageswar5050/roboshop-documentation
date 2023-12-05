@@ -43,13 +43,13 @@ mkdir /app
 Download the application code to created app directory.
 
 ```
-curl -o /tmp/catalogue.zip https://roboshop-builds.s3.amazonaws.com/catalogue.zip
+curl -o /app/catalogue.zip https://roboshop-builds.s3.amazonaws.com/catalogue.zip
 ```
 ```
 cd /app 
 ```
 ```
-unzip /tmp/catalogue.zip
+unzip /app/catalogue.zip
 ```
 
 Every application is developed by development team will have some common softwares that they use as libraries. This application also have the same way of defined dependencies in the application configuration.
